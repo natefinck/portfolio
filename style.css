@@ -1,11 +1,11 @@
 .header {
 	background-color: white;
-	height: 90px;
+	z-index: 9;
+	/* box-shadow: 1px 1px 4px white; */
 }
 
 .title {
-	/* text-align: center; */
-	padding-left: 100px;
+	padding-left: 200px;
 	color: #588B8B !important;
 	padding-top: 5px;
 }
@@ -41,7 +41,6 @@
 	margin-top: 0;
 	border-top: 20px solid #cccccc;
 	border-radius: 5px;
-	box-shadow: 2px 2px 7px black;
 }
 
 .helloWorld{
@@ -73,13 +72,15 @@
 }
 
 .footer {
-	height: 170px;
+	/* height: 170px; */
+	/* height: 330px; */
 	background-color: #588B8B;
 }
 
-#thankYou {
+.thankYou {
 	padding-top: 25px;
 	text-align: center;
+	font-size: 20pt;
 }
 
 #signature {
@@ -143,9 +144,11 @@
 	padding-left: 2px;
 }
 
-.jobDescription p {
-	font-size: 15px;
+.description p {
+	font-size: 18px;
 	margin-left: 30px;
+	line-height: 2.5;
+	text-indent: 40px;
 }
 
 .languageChip {
@@ -170,7 +173,46 @@
 	line-height: 1.6;
 }
 
+.shadowed {
+	-webkit-filter: drop-shadow(2px 2px 7px rgba(0,0,0,0.5));
+}
+
+.icon {
+	height: 40px;
+	padding: 0 15px;
+}
+
+.icon:hover{
+	filter: invert(0.5) 
+	sepia(1) 
+	hue-rotate(280deg)
+	saturate(1)
+    brightness(1);
+}
+
+.icons {
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+}
+
+.icons a {
+	text-decoration: none;
+}
+
+.terminalBullets {
+	list-style: none;
+}
+
 @media screen and (max-width: 767px) {
+
+	.title {
+		padding-left: 45px;
+	}
+
+	.terminalBullets {
+		padding-left: 0 !important;
+	}
 
 	.name {
 		margin: 30px 0px 50px 0px;
@@ -191,7 +233,7 @@
 	}
 
 	.footer {
-		height: 180pt;
+		/* height: 180pt; */
 		font-size: 25pt;
 	}
 
@@ -216,7 +258,7 @@
 	}
 
 	.mountainImage {
-		width: 80%;
+		width: 60%;
 		height: 75pt;
 	}
 
