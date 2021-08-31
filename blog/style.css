@@ -1,0 +1,136 @@
+
+.blog {
+    /* color: black; */
+    width: 100%;
+    margin: 0;
+}
+
+.blogTitle {
+    padding-left: 20%;
+}
+
+.blogHead {
+    background-color: #588B8B;
+    padding: 2rem;
+}
+
+.blogContainer {
+    background-color: white;
+}
+
+.blog p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: black;
+}
+
+.contentContainer {
+    margin: 2rem auto;
+    max-width: 680px;
+    padding: 30px;
+    background-color: #cccccc;
+}
+
+.imageContainer {
+    text-align: center;
+}
+
+.image {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date {
+    font-size: .5rem;
+}
+
+.topDate {
+    text-align: right;
+}
+
+.meContainer {
+    color: black;
+    background-color: #cccccc;
+    margin: 2rem auto;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.meContainer div {
+    flex: 1 1;
+}
+
+.meContainer .rightContainer {
+    padding: 1rem;
+}
+
+.portrait {
+    background: url("../../img/portrait.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.blogPageContent {
+    background-color: #A77474;
+    padding: 1.5rem;
+}
+
+.blogsList {
+    padding: 1.5rem;
+}
+
+.blogsList a {
+    text-decoration: none;
+    margin: 1.5rem;
+}
+
+.blogCard {
+    color: black;
+    width: 80%;
+    background-color: #cccccc;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.blogsPageDate {
+    padding: .3rem 0;
+    font-size: .7rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.quote {
+    /* background-color: #909090; */
+    border-left: #909090 solid 5px;
+    padding: .3rem 2rem;
+}
+
+.quote .quoteAuthor {
+    text-align: right;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .contentContainer {
+        padding: 1rem 5%;
+    }
+
+    .blogTitle {
+        padding-left: 10%;
+    }
+
+    .image {
+        width: 90%
+    }
+}
