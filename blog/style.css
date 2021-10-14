@@ -79,9 +79,14 @@
     width: 100px;
 }
 
-.blogPageContent {
+.blogPageContainer {
     background-color: #A77474;
     padding: 1.5rem;
+}
+
+.blogPageContent {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .blogsList {
@@ -132,5 +137,9 @@
 
     .image {
         width: 90%
+    }
+
+    .blogPageContent {
+        width: 90%;
     }
 }
