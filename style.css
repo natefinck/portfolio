@@ -193,8 +193,8 @@
 
 .icons {
 	margin: 0 auto;
-	text-align: center;
 	width: 300px;
+	display: flex;
 }
 
 .icons a {
