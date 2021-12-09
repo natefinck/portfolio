@@ -143,3 +143,12 @@
         width: 90%;
     }
 }
+
+.blogImageContainer {
+    text-align: center;
+}
+
+.blogImageContainer p {
+    font-size: 8pt;
+    color: white;
+}
