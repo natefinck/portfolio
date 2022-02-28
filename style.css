@@ -79,16 +79,19 @@
 
 .thankYou {
 	margin: 0;
-	padding: 25px;
+	padding-top: 25px;
 	text-align: center;
 	font-size: 20pt;
 }
 
 #signature {
-	position: relative;
-	width: 200px;
-	top: -40px;
-	left: 45%;
+	margin: 0 auto;
+    width: 200px;
+	padding-bottom: 1rem;
+}
+
+#signature img {
+	width: 100%;
 }
 
 .decoration {
@@ -194,6 +197,7 @@
 .icons {
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 1rem;
 }
 
 .icons a {
