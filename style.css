@@ -1,32 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(0,0,0);
+	background: linear-gradient(61deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 23%, rgba(8,36,59,1) 100%);
+	font-family: "Inter", sans-serif;
+	color: white;
+}
+
+h1 {
+	font-size: 4vw;
+    letter-spacing: 1px;
+}
+
 .header {
-	background-color: white;
-	z-index: 9;
-	/* box-shadow: 1px 1px 4px white; */
+	color: #ffffff;
 }
 
-.title h1{
-	padding-left: 200px;
-	color: #588B8B !important;
-	padding-top: 5px;
+#name {
+	margin: 0;
+    padding: 2vw 6vw;
 }
 
-.mountainImage {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 440px;
-  	height: 150px;
-  	padding-right: 30px;
-  	padding-top: 50px;
+#intro {
+	padding: 5rem 12vw;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1rem;
 }
 
-.imageContainer {
-	margin: 0 auto;
+#introImage {
+	height: 34vw;
+	width: 34vw;
+	border-radius: 50%;
+	background-image: url("img/portrait.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#introText {
+	width: 45%;
+}
+
+#introDescription {
+	font-family: 'Lora', serif;
 }
 
 .terminalContainer {
 	width: 100%;
-	background-color: #A77474;
 	padding-top: 70px;
 	padding-bottom: 40pt;
 }
@@ -34,47 +55,30 @@
 .terminal {
 	font-family: 'Courier Prime', monospace;
 	font-size: 11pt;
-	background-color: #383737;
-	width: 670px;
-	padding: 20px;
-	margin: 60px auto;
-	margin-top: 0;
-	border-top: 20px solid #cccccc;
-	border-radius: 5px;
+	padding: 1rem;
+	margin: 0 12vw;
+	border-top: 20px solid #ffffff;
+	border-radius: 10px;
+	background: rgba(58, 58, 58, .35);
 }
 
-.helloWorld{
-	text-align: center;
-	padding-top: 50px;
-	font-size: 30px;
+.command {
+	color: #f2f2f2;
 }
 
-.return {
-	padding-left: 35px;
-	color: #cccccc;
+.terminalReturn {
+	padding-left: 2rem;
+	color: #C9D6E1;
 }
 
-.projects {
-	height: 500px;
-	color: #383737;
-}
-
-.projects h2 {
-	color: #A77474;
-}
-
-.projects div {
-	padding-left: 150px;
-}
-
-.programming div {
-	padding-left: 60px;
+.terminalReturn a {
+	color: #588B8B;
 }
 
 .footer {
-	/* height: 170px; */
-	/* height: 330px; */
-	background-color: #588B8B;
+	/* background-color: #588B8B; */
+	font-family: 'Lora', serif;
+
 }
 
 .thankYou {
@@ -92,22 +96,6 @@
 
 #signature img {
 	width: 100%;
-}
-
-.decoration {
-	background-color: #588B8B;
-	height: 380px;
-}
-
-.return a {
-	color: #588B8B;
-}
-
-.sticky {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  padding: 0 !important;
 }
 
 .company {
@@ -177,10 +165,6 @@
 	line-height: 1.6;
 }
 
-.shadowed {
-	-webkit-filter: drop-shadow(2px 2px 7px rgba(0,0,0,0.5));
-}
-
 .icon {
 	height: 40px;
 	padding: 0 15px;
@@ -220,25 +204,7 @@
 	padding: 1rem;
 }
 
-.top {
-	display: flex;
-    flex-wrap: wrap;
-}
-
-.top div {
-	flex: 1 1;
-}
-
 @media screen and (max-width: 767px) {
-
-	.top {
-		display: block;
-		flex-wrap: nowrap;
-	}
-
-	.top div {
-		flex: none;
-	}
 
 	.navigation {
 		text-align: center;
@@ -248,7 +214,6 @@
 
 	.navigation a {
 		padding: 1rem;
-		/* margin: 10px; */
 	}
 
 	.title h1 {

@@ -5,23 +5,21 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
-	<!-- Style -->
 	<link rel="stylesheet" href="style.css">
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	
 
 
 	<title>Nate Finck</title>
 	<link rel="icon" href="img/favicon.ico" />
 </head>
 
-<body style="font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; color: white; width: calc(100vw);">
-	<div style="margin: 0; padding: 0;">
-	<!-- HEADER -->
-		<div class="header sticky top">
-			<div class="title">
-				<h1 class="name">Nate Finck</h1>
+<body>
+		<div class="header">
+			<div>
+				<h1 id="name">Nate Finck</h1>
 			</div>
 			<!-- <div class="navigation">
                 <a href="/"><span>Home</span></a>
@@ -29,140 +27,57 @@
             </div> -->
 		</div>
 
-	<!-- DECORATION -->
-		<div class="decoration">
-			<h3 class="helloWorld shadowed">Hello, World!</h3>
-			<div class="imageContainer">
-				<img class="mountainImage shadowed" src="img/myMountain.png">
+		<div id="intro">
+			<div id="introImage">
+
+			</div>
+			<div id="introText">
+				<h1>Hi, I'm Nate</h1>
+				<div id="introDescription">
+					I'm a software engineer, web developer, and user experience designer. 
+				</div>
 			</div>
 		</div>
 
-	<!-- TERMINAL/ABOUT -->
 		<div class="terminalContainer">
-			<div class="terminal shadowed">
+			<div class="terminal">
 				<ul class="terminalBullets">
 					<li>
 						<p class="command">&gt&gt&gt Nate.hometown</p>
-						<p class="return">"Falls City, Nebraska"</p>
+						<p class="terminalReturn">"Falls City, Nebraska"</p>
 					</li>
 					<li>
 						<p class="command">&gt&gt&gt Nate.education</p>
-						<p class="return">"Creighton University"</p>
+						<p class="terminalReturn">"Creighton University"</p>
 					</li>
 					<li>
 						<p class="command">&gt&gt&gt Nate.major</p>
-						<p class="return">["Computer Science", "Digital Development"]</p>
+						<p class="terminalReturn">["Computer Science", "Digital Development"]</p>
 					</li>
 					<li>
 						<p class="command">&gt&gt&gt Nate.expectedGraduation</p>
-						<p class="return">"May 2022"</p>
+						<p class="terminalReturn">"May 2022"</p>
 					</li>
 					<li>
 						<p class="command">&gt&gt&gt Nate.hobbies</p>
-						<p class="return">["plants", "music", "investing", "chess", "filmmaking", "crypto"]</p>
+						<p class="terminalReturn">["plants", "music", "investing", "chess", "filmmaking", "crypto"]</p>
 					</li>
 					<li>
 						<p class="command">&gt&gt&gt Nate.email</p>
-						<p class="return">["<a href="mailto:NathanielFinck@creighton.edu">NathanielFinck@Creighton.edu</a>", "<a href="mailto:nfinck11@hotmail.com">nfinck11@hotmail.com</a>"]</p>
+						<p class="terminalReturn">["<a href="mailto:NathanielFinck@creighton.edu">NathanielFinck@Creighton.edu</a>", "<a href="mailto:nfinck11@hotmail.com">nfinck11@hotmail.com</a>"]</p>
 					</li>
 					<li>
-						<p class="command">&gt&gt&gt Nate.programmingLanguages</p>
-						<p class="return">["Python", "HTML", "CSS", "JavaScript", "Java", "PHP", "SQL"]</p>
+						<p class="command">&gt&gt&gt Nate.skills</p>
+						<p class="terminalReturn">["HTML", "CSS", "JavaScript", "React", "Java", "Python"]</p>
 					</li>
 					<li>
 						<p class="command">&gt&gt&gt Nate.programmingLanguages.favorite</p>
-						<p class="return">"JavaScript"</p>
+						<p class="terminalReturn">"JavaScript"</p>
 					</li>
 				</ul>
 			</div>
 		</div>
-	</div>
 
-<!-- RESUME -->
-	<!-- <div class="projects">
-		<div class="sticky header">
-			<h1 class="title">Projects</h1>
-		</div>
-		<div class="programming">
-			<h2>Programming</h2>
-			<p>As a computer science major, naturally I dabble in some coding projects:</p>
-			<div>
-				<h4>Spotify Lyrics</h4>
-				<p>DESCRIPTION</p>
-			</div>
-			<div>
-				<h4>Twitter Bot</h4>
-				<p>DESCRIPTION</p>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- WHAT AM I DOING? -->
-	<!-- <div>
-		<div class="sticky header">
-			<div class="title">
-				<h1 class="">What am I up to?</h1>	
-			</div>	
-		</div>
-		<div class="company">
-			<div>
-			</div>
-			<div class="description">
-				<p>
-					Hey there!
-				</p>
-				<p>
-					I just started my senior year at Creighton University this year. I'm 
-					working at my internship as a software dev intern at Union Pacific a 
-					few hours per week. I'm also taking some programming classes and some 
-					fun classes that peak my interest, like philosophy of film and a 
-					photo/video fundamentals class. I'm excited for my senior capstone 
-					class, where we create a working application in small groups. 
-				</p>
-				<p>
-					If you'd like to keep up with me on various areas of the internet, check out
-					the links below!
-				</p>
-			</div>
-		</div>
-	</div> -->
-
-<!-- WORK EXPERIENCE -->
-	<!-- <div class="workExperience">
-		<div class="sticky header">
-			<h1 class="title">Work Experience</h1>		
-		</div>
-
-		<div class="company">
-			<div>
-				<div class="companyLogo">
-					<img src="img/up.png" alt="Union Pacific Logo">
-				</div>
-				<div class="companyName">
-					<h2>Union Pacific</h2>
-					<p class="date">App Development Intern | November 2019 - Present</p> 
-				</div>
-			</div>
-			<div class="description">
-				<p>
-					At Union Pacific, I create responsive dashboards that display 
-					valuable information to employees. These dashboards give users 
-					access to useful data in a clean and efficient way. Using proper 
-					web design practices, I have created websites that interact 
-					with databases and data structures to precisely display  
-					exactly what's necessary - and nothing more. 
-				</p>
-			</div>
-			<div class="languages">
-				<div class="languageChip">HTML</div>
-				<div class="languageChip">JavaScript</div>
-				<div class="languageChip">CSS</div>
-			</div>
-		</div>
-
-	</div> -->
-
-<!-- FOOTER -->
 	<div class="footer">
 		<div>
 			<p class="thankYou">Around the web</p>
