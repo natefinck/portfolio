@@ -20,12 +20,13 @@ body {
 	background: linear-gradient(61deg, var(--black) -50%, rgba(0,0,0,1) 30%, var(--steelblue) 150%);
 	font-family: "Inter", sans-serif;
 	color: var(--main-text);
+	font-size: 18pt;
 }
 
 #name {
 	margin: 0;
     padding: 2vw 6vw;
-	font-size: 2rem;
+	font-size: 2.5rem;
     letter-spacing: 1.5px;
 }
 
@@ -103,7 +104,7 @@ body {
 
 .terminal {
 	font-family: 'Courier Prime', monospace;
-	font-size: 11pt;
+	font-size: 1rem;
 	padding: 1rem;
 	margin: 0 auto;
 	width: 75%;
@@ -240,10 +241,10 @@ body {
 
 	.terminal {
 	  width: 80%;
-	  font-size: 9pt;
+	  font-size: .9rem;
 	}
 
 	#signature {
-		width: 20vw;
+		width: 70vw;
 	}
   }
