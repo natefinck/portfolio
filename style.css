@@ -138,7 +138,7 @@ body {
 
 #signature {
 	margin: 0 auto;
-    width: 70vw;
+    width: 20vw;
 	padding-bottom: 1rem;
 }
 
@@ -240,5 +240,9 @@ body {
 	.terminal {
 	  width: 80%;
 	  font-size: 9pt;
+	}
+
+	#signature {
+		width: 20vw;
 	}
   }
