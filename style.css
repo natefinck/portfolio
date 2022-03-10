@@ -6,7 +6,12 @@
 	--lightblue: #9dd0e6;
 	--lavendar: #e9edef;
 	--main-text: #ffffff;
-  }
+}
+
+
+::-webkit-scrollbar {
+	display: none;
+}
 
 body {
 	margin: 0;
@@ -14,21 +19,14 @@ body {
 	background: rgb(0,0,0);
 	background: linear-gradient(61deg, var(--black) -50%, rgba(0,0,0,1) 30%, var(--steelblue) 150%);
 	font-family: "Inter", sans-serif;
-	color: white;
-}
-
-#name {
-	font-size: 2rem;
-    letter-spacing: 1.5px;
-}
-
-.header {
 	color: var(--main-text);
 }
 
 #name {
 	margin: 0;
     padding: 2vw 6vw;
+	font-size: 2rem;
+    letter-spacing: 1.5px;
 }
 
 #intro {
@@ -99,16 +97,16 @@ body {
 }
 
 .terminalContainer {
-	width: 100%;
-	padding-top: 70px;
-	padding-bottom: 40pt;
+	padding-top: 8vw;
+	padding-bottom: 4vw;
 }
 
 .terminal {
 	font-family: 'Courier Prime', monospace;
 	font-size: 11pt;
 	padding: 1rem;
-	margin: 0 12vw;
+	margin: 0 auto;
+	width: 75%;
 	border-top: 20px solid var(--main-text);
 	border-radius: 10px;
 	background: var(--darkslategray);
@@ -120,36 +118,32 @@ body {
 
 .terminalReturn {
 	padding-left: 2rem;
-	color: var(--lavendar);
+	color: var(--main-text);
 }
 
 .terminalReturn a {
-	color: #588B8B;
+	color: var(--lightblue);
 }
 
 .terminalBullets {
 	list-style: none;
 }
 
-.thankYou {
-	margin: 0;
-	padding-top: 25px;
+.footer {
+	font-weight: bold;
+	letter-spacing: 1px;
 	text-align: center;
-	font-size: 20pt;
+	font-size: 1.8rem;
 }
 
 #signature {
 	margin: 0 auto;
-    width: 200px;
+    width: 70vw;
 	padding-bottom: 1rem;
 }
 
 #signature img {
 	width: 100%;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 .icon {
@@ -175,23 +169,59 @@ body {
 	text-decoration: none;
 }
 
-.navigation {
-	text-align: right;
-	padding: 2rem;
-}
-
-.navigation a {
-	text-decoration: none;
-	color: #588B8B;
-	font-size: 1.2rem;
-	padding: 1rem;
-}
-
-.footer {
-	/* font-family: 'Lora', serif; */
-}
-
 @media screen and (max-width: 767px) {
+
+	#intro {
+		display: block;
+		padding: 1rem 12vw;
+	}
+
+	#introImageContainer {
+		width: 67vw;
+		margin: 0 auto;
+	}
+
+	#introImage {
+		height: 67vw;
+		width: 67vw;
+		border-radius: 50%;
+		background-image: url("img/portrait.JPG");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#insideCircle1 {
+		height: 70vw;
+		width: 70vw;
+
+		left: 1vw;
+		top: -3vw;
+	}
+
+	#insideCircle2 {
+		height: 65.5vw;
+		width: 65.5vw;
+
+		left: 6vw;
+		top: 3vw;
+	}
+
+	#insideCircle3 {
+		height: 64vw;
+		width: 64vw;
+
+		left: -3vw;
+		top: 1vw;
+	}
+
+	#introText {
+		width: 100%;
+	}
+
+	#introText h1 {
+		font-size: 12vw;
+	}
 
 	.navigation {
 		text-align: center;
@@ -211,16 +241,4 @@ body {
 	  width: 80%;
 	  font-size: 9pt;
 	}
-
-	.footer {
-		/* height: 180pt; */
-		font-size: 25pt;
-	}
-
-	#signature {
-		width: 250px;
-		top: -40px;
-		left: 20%;
-	}
-
   }
