@@ -93,7 +93,9 @@ body {
 }
 
 #introDescription {
-	font-family: 'Lora', serif;
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: .5px;
+	font-size: 18pt;
 }
 
 .terminalContainer {
